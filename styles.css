@@ -64,12 +64,15 @@ footer {
 footer button {
     width: 100px;
     display: inline-block;
-    margin: 50px 0px 100px 20px;
-     
-
-
-
+    margin-left: 70px;
+    background-color: gray;
 }
+
+footer p {
+    float: right;
+}
+
+
 
 
 
