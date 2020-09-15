@@ -13,7 +13,7 @@ header {
 }
 
 header img {
-    float left;
+    float: left;
 }
 
 h1 {
@@ -34,13 +34,42 @@ header button {
     border-radius: 25px;
     margin: 5px;
     border: 1px solid black;
-    
+    color: white;
 
 }
 
 /*main*/
 
+main img {
+    width: 300px;
+}
 
+section {
+    width: 940px;
+    text-align: center;
+}
+
+article {
+    width: 300px;
+    display: inline-block;
+
+}
+
+/* footer*/
+
+footer {
+    align-content: center;
+}
+
+footer button {
+    width: 100px;
+    display: inline-block;
+    margin: 50px 0px 100px 20px;
+     
+
+
+
+}
 
 
 
