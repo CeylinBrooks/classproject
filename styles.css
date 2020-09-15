@@ -1,7 +1,7 @@
 /*header*/
 
 body {
-    background-color: aqua;
+    background-color: rgb(184, 219, 240);
     color: black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 0px auto;
@@ -21,12 +21,21 @@ h1 {
 }
 
 nav {
-    float: right;
+    text-align: center;
 
 }
 
 header button {
     display: inline-block;
+    width: 100px;
+    background-color: gray;
+    padding: 5px;
+    text-align: center;
+    border-radius: 25px;
+    margin: 5px;
+    border: 1px solid black;
+    
+
 }
 
 /*main*/
