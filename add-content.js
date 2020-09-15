@@ -1,6 +1,8 @@
-function askName() {
-    var userName = prompt('What is your name?');
-    return document.write('<h3>Nice to meet you ' + userName + '</h3>');
+function askFlower() {
+    var userName = prompt('What flower do you like?');
+    return document.write('<h3> You\'re right  ' + userName + ' are nice </h3>');
   }
   
-  askName();
+  askFlower();
+
+  
