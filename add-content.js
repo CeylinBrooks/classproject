@@ -25,7 +25,7 @@ function askFlower() {
 
   function getCount(){
     var count = prompt ('Great! How many would you like?');
-    while(isNaN(count)) || count == '') {
+    while(isNaN(count) || count == '') {
       count = prompt("PLEASE enter a number. How many would you like?");
     }
     return count;
@@ -37,7 +37,7 @@ function showOrder() {
   var total = getCount();
 
   for(var i =0; i < total; i++) {
-    result =
+    result = result + '<p>'
   }
 
 
