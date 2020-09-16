@@ -37,9 +37,9 @@ function showOrder() {
   var total = getCount();
 
   for(var i =0; i < total; i++) {
-    result = result + '<p>'
+    result = result + '<p>' + itemType + '</p>';
   }
-
+return document.write(result);
 
 }
 
