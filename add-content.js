@@ -4,6 +4,9 @@ function askFlower() {
     var askFlower = prompt('What flower do you like?');
     return document.write('<h3> You\'re right  ' + askFlower + ' are nice </h3>');
   }
+    while(response != 'sunflower') {
+      message = prompt( 'What flower do you like? Say sunflower')
+    }
   
   askFlower();
 
