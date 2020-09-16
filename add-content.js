@@ -16,7 +16,7 @@ function askFlower() {
 
   function askYard() {
     var askYard = prompt('Do you have a large or small space?');
-    return document.write('<h3> Okay, we can work that ' + askYard + ' </h3>');
+    return document.write('<h3> Okay, we can work that ' + askYard + '' </h3>');
   }
   
   askYard();
