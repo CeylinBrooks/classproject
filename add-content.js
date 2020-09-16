@@ -6,6 +6,19 @@ function askFlower() {
   }
   
 
+  while(response != 'sunflowers' && response != 'daisy') {
+    item = prompt ('What flower do you like? Say sunflowers')
+  }
+
+  if (response === 'sunflowers') {
+    item = '<img src="../images/small-flowerlogo.png">';
+  } else if (response === 'daisy') {
+    item = '<img src="../images/small-flowerlogo.png">';
+  }
+
+  return item;
+
+
 
   askFlower();
 
