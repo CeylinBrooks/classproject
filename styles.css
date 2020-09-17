@@ -16,6 +16,11 @@ header img {
     float: left;
 }
 
+img { height: 250px;
+    width:250px;
+    object-fit:contain;
+    }
+
 h1 {
     text-align: center;
 }
